@@ -5,7 +5,7 @@ export default function App() {
   const [altura, setAltura] = useState('');
   const [message, setMessage] = useState('');
   function calcIMC(){
-    const alt = altura / 100;
+    const alt = altura / 100; 
     const imc = peso / (alt * alt);
 
     if(imc < 18.6){
